@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainArea">
+      <UniqueIdentifier>{bc7a3ec2-fb06-4187-b100-7559525aeb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainArea\Header">
+      <UniqueIdentifier>{ea6f85c5-da00-4625-adc8-1271e1254474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectKatamari">
+      <UniqueIdentifier>{d53ff816-1f90-4ce2-99b1-adcd3e348622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectKatamari\Input">
+      <UniqueIdentifier>{7b86aac3-a150-4584-b7d5-337787f7a1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectKatamari\Object">
+      <UniqueIdentifier>{5d1ce5d0-26aa-4696-a58b-37af4f50ba9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectKatamari\Object\Child">
+      <UniqueIdentifier>{16ade412-f4be-4ddd-9375-9d85de4ca859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectKatamari\Render">
+      <UniqueIdentifier>{b8c648d3-0609-473e-a12e-498f6e4a13eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bitmap">
+      <UniqueIdentifier>{af6fa14c-168d-45af-b88d-f510eaeac642}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PKPrintConsole.h">
+      <Filter>MainArea</Filter>
+    </ClInclude>
+    <ClInclude Include="PKMain.h">
+      <Filter>MainArea</Filter>
+    </ClInclude>
+    <ClInclude Include="PKConst.h">
+      <Filter>MainArea\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKDefine.h">
+      <Filter>MainArea\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKMacro.h">
+      <Filter>MainArea\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MainArea\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainArea\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>MainArea\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PKMainLoop.h">
+      <Filter>ProjectKatamari</Filter>
+    </ClInclude>
+    <ClInclude Include="PKInputManager.h">
+      <Filter>ProjectKatamari\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PKKeyMapping.h">
+      <Filter>ProjectKatamari\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PKEnumSet.h">
+      <Filter>ProjectKatamari</Filter>
+    </ClInclude>
+    <ClInclude Include="PKObject.h">
+      <Filter>ProjectKatamari\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PKCameraManager.h">
+      <Filter>ProjectKatamari</Filter>
+    </ClInclude>
+    <ClInclude Include="PKChildSphere.h">
+      <Filter>ProjectKatamari\Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="PKRender.h">
+      <Filter>ProjectKatamari\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PKDummyRender.h">
+      <Filter>ProjectKatamari\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PKObjectManager.h">
+      <Filter>ProjectKatamari\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PKLightManager.h">
+      <Filter>ProjectKatamari</Filter>
+    </ClInclude>
+    <ClInclude Include="PKTextureManager.h">
+      <Filter>ProjectKatamari</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="PKChildBackground.h">
+      <Filter>ProjectKatamari\Object\Child</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PKPrintConsole.cpp">
+      <Filter>MainArea</Filter>
+    </ClCompile>
+    <ClCompile Include="PKMain.cpp">
+      <Filter>MainArea</Filter>
+    </ClCompile>
+    <ClCompile Include="PKConst.cpp">
+      <Filter>MainArea\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MainArea\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="PKMainLoop.cpp">
+      <Filter>ProjectKatamari</Filter>
+    </ClCompile>
+    <ClCompile Include="PKInputManager.cpp">
+      <Filter>ProjectKatamari\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PKObject.cpp">
+      <Filter>ProjectKatamari\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PKCameraManager.cpp">
+      <Filter>ProjectKatamari</Filter>
+    </ClCompile>
+    <ClCompile Include="PKChildSphere.cpp">
+      <Filter>ProjectKatamari\Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="PKRender.cpp">
+      <Filter>ProjectKatamari\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="PKDummyRender.cpp">
+      <Filter>ProjectKatamari\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="PKObjectManager.cpp">
+      <Filter>ProjectKatamari\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PKLightManager.cpp">
+      <Filter>ProjectKatamari</Filter>
+    </ClCompile>
+    <ClCompile Include="PKTextureManager.cpp">
+      <Filter>ProjectKatamari</Filter>
+    </ClCompile>
+    <ClCompile Include="bmp.cpp">
+      <Filter>Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="PKChildBackground.cpp">
+      <Filter>ProjectKatamari\Object\Child</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectKatamari.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ProjectKatamari.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
